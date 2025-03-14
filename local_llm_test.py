@@ -1,3 +1,18 @@
+# -----------------------------------------------------------------------------
+# File: local_llm_test.py
+# Author: Pat Joyce
+# Email: joyce.pat@gmail.com
+# Created: March 14, 2025
+# 
+# Copyright (c) 2025 Pat Joyce
+# 
+# Description:
+# This file contains ....
+# 
+# License:
+# This code is licensed ....
+# -----------------------------------------------------------------------------
+
 from local_llm_framework import OllamaProvider, LlamaProvider, LLMClient, Message
 import logging
 import os
@@ -20,7 +35,7 @@ def test_ollama():
             return
         else:
             print(f"Ollama server available. Using model '{model_name}'.")
-            
+
         client = LLMClient(provider)
         
         # Simple prompt test

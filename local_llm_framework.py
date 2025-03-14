@@ -1,3 +1,18 @@
+# -----------------------------------------------------------------------------
+# File: local_llm_framework.py
+# Author: Pat Joyce
+# Email: joyce.pat@gmail.com
+# Created: March 14, 2025
+# 
+# Copyright (c) 2025 Pat Joyce
+# 
+# Description:
+# This file contains ....
+# 
+# License:
+# This code is licensed ....
+# -----------------------------------------------------------------------------
+
 import os
 import json
 import logging
